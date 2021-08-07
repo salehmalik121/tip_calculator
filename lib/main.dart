@@ -17,6 +17,11 @@ class _CalculatorState extends State<Calculator> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text("calculator"),
+          leading: Icon(Icons.attach_money),
+        ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
